@@ -12,6 +12,6 @@ class Solution(object):
                 return mid
             elif nums[mid] < target:
                 low = mid + 1
-            else
+            else:
                 high = mid - 1
         return low
